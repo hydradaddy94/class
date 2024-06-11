@@ -1,6 +1,10 @@
-nav { 
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:blue;}
-a {background-color:cyan; margin: 10px;}
+    a:link{color:blueviolet}
+    a:visited{color:grey}
+    a:hover{color:deeppink}
+    background-color:blue; border-radius: 10px;}
+    a{background-color:cyan; margin: 10px;
+border-style:ridge; border-radius: 10px; border-color:darkgreen;}
